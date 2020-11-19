@@ -9,10 +9,12 @@
 
     font-size: 24px;
     padding: 16px 24px;
+    color: #838383;
 
     box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
 
     &:focus {
         border: 2px solid $mainBrandColor;
+        color: $mainBrandColor;
     }
 }

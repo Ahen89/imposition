@@ -7,6 +7,7 @@
     width: 100%;
     height: 100vh;
     
+    
     background-color: rgba(0, 0, 0, 0.4);
 
     position: absolute;
@@ -15,10 +16,12 @@
 
     &__wrapper {
         position: absolute;
-        top: calc(50% - ((100vh - 20%)) / 2);
+        //top: calc(50% - ((100vh - 20%)) / 2);
 
         width: 932px;
-        height: calc(100vh - 20%);
+        height: calc(100vh);
+        //height: calc(100vh - 20%);
+        //max-height: 1024px;
 
         display: flex;
     }
@@ -44,10 +47,13 @@
         background-color: #FFFFFF;
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
         width: calc(932px - 352px);
+        
+    
     }
 
 }

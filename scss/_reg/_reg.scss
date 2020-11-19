@@ -1,10 +1,10 @@
 @import '../_styleSetting';
 
-.auth {
+.reg {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     font: inherit;
 
     &__title {
@@ -15,35 +15,11 @@
         font-size: 32px;
     }
 
-    &__email {
-
-    }
-
-    &__pass {
-
-    }
-
     &__button {
         font-size: 28px;
         font-weight: 500;
 
         width: 424px;
         height: 70px;
-    }
-
-    &__fogetPass {
-        margin-top: 45px;
-        font-size: 18px;
-    }
-
-    &__reg {
-        margin-top: 100px;
-        font-size: 24px;
-    }
-
-    &__entWith {
-        margin-top: 45px;
-        font-size: 24px;
-        margin-bottom: 20px;
     }
 }
