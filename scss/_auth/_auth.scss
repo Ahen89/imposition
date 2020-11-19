@@ -1,0 +1,33 @@
+@import '../_styleSetting';
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    font: inherit;
+
+    &__title {
+        padding-bottom: 5px;
+
+        text-align: center;
+        font-weight: 500px;
+        font-size: 32px;
+    }
+
+    &__email {
+
+    }
+
+    &__pass {
+
+    }
+
+    &__button {
+        font-size: 28px;
+        font-weight: 500;
+
+        width: 424px;
+        height: 70px;
+    }
+}

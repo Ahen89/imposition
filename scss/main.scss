@@ -1,0 +1,20 @@
+@import "_header/_header.scss";
+@import "_header/_nav.scss";
+
+@import "_button/_button.scss";
+
+@import "_mainScreen/_mainScreen";
+
+@import "_calendar/_calendar";
+
+@import "_modal/_modal";
+
+@import "_input/_input";
+
+@import "_auth/_auth";
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}

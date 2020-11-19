@@ -1,0 +1,55 @@
+@import '../_styleSetting';
+
+.mainScreen {
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__logo {
+        height: 210px;
+        width: 720px;
+        background: url('../img/logoMainScreen.png') no-repeat;
+    }
+
+    &__auth {
+        margin-top: 85px;
+        display: flex;
+        gap: 20px;
+    }
+
+    &__button {
+        width: 135px;
+        height: 40px;
+        font-weight: 500;
+
+        &-singUp {
+            width: 210px;
+            border: 2px solid $secondBrandColor;
+            background-color: #FFF;
+            color: $secondBrandColor;
+
+            &:hover {
+                background-color: $secondBrandColor;
+            }
+        }
+
+        &-logIn{
+            
+        }
+    }
+
+    //background
+    &::before { 
+        content: '';
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        height: calc(100vh - 90px);
+        background: url('../img/mainScreenBG.png') no-repeat;
+        background-size: 100%;
+        background-position: bottom 30% right 50%;
+        z-index: -1;
+    }
+}

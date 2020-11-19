@@ -1,0 +1,22 @@
+@import '../_styleSetting';
+
+.button {
+    //border: 1px solid $mainBrandColor;
+    border: none;
+    background-color: $mainBrandColor;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 8px 21px;
+
+    &:hover {
+        background-color: $hoverButtonColor;
+        color: #ffffff;
+        //border: 1px solid $hoverButtonColor;
+        border: none;
+
+        box-shadow: 0 0 20px -1px $shadowColor;
+        transition-duration: 0.1s;
+        transition-property: box-shadow;
+        transition-timing-function: ease;
+    }
+}

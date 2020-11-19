@@ -1,0 +1,53 @@
+@import '../_styleSetting';
+
+.modal {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    &__wrapper {
+        position: absolute;
+        top: calc(50% - ((100vh - 20%)) / 2);
+
+        width: 932px;
+        height: calc(100vh - 20%);
+
+        display: flex;
+    }
+
+    &__BGleft {
+        width: 352px;
+        background-color: #DBE7FF;
+
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-logo {
+            background: url('../img/modalLogo.png') no-repeat;
+            height: 118px;
+            width: 310px;
+            
+        }
+    }
+
+    &__contentBox {
+        background-color: #FFFFFF;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: calc(932px - 352px);
+    }
+
+}
