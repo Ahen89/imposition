@@ -21,7 +21,11 @@
         width: 40px;
         padding: 3px;
 
-       
+        color: $mainBrandColor;
+
+        &:nth-child(1n+6) {
+            background-color: rgba($color: #C4C4C4, $alpha: 0.1);
+        }
     }
 
     &__weeks-body {
@@ -32,15 +36,38 @@
         display: flex;
         justify-content: space-between;
         text-align: center;
+        vertical-align: middle;
+
+        
     }
 
     &__day {
-        padding: 3px;
-        width: 40px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
 
-        &:hover {
-            background-color: $secondBrandColor;
-            color: #ffffff;
+        &:nth-child(1n+6) {
+            color: #FF9393;
+            background-color: rgba($color: #C4C4C4, $alpha: 0.1);
+        }
+
+        // &:hover {
+        //     background-color: $secondBrandColor;
+        //     color: #ffffff;
+        // }
+
+        &-hover {
+            display: block;
+        
+            width: 30px;
+            height: 30px;
+
+            &:hover {
+                border-radius: 3px;
+                background-color: $secondBrandColor;
+                color: #ffffff;
+            }
         }
     }
 

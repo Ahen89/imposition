@@ -10,7 +10,7 @@
     &__logo {
         height: 210px;
         width: 720px;
-        background: url('../img/logoMainScreen.png') no-repeat;
+        background: url('../img/logoMainScreen.svg') no-repeat;
     }
 
     &__auth {
@@ -33,10 +33,6 @@
             &:hover {
                 background-color: $secondBrandColor;
             }
-        }
-
-        &-logIn{
-            
         }
     }
 
